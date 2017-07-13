@@ -14,3 +14,14 @@ function randWord(){ // new function that generate a random word
     return word;
 }
 console.log(randWord());
+
+
+var sentence = "";
+var space = " ";
+function randSentence(){ 
+    for(var i = 0; i < Math.floor(Math.random() * 10); i++ ){ 
+        sentence += randWord() + space;
+    } 
+    return sentence;
+}
+console.log(randSentence());

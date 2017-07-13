@@ -4,9 +4,9 @@ var pokemonStats = [["Name: Pidgeot ", "Type: Flying", "HP: 83", "DEF: 75", "ATK
                     ["Name: Snorlax", "Type: Normal", "HP: 160", "DEF: 65", "ATK: 110", "Legend: No"],  //col 3
                     ["Name: Lugia", "Type: Psychic", "HP: 106", "DEF: 130", "ATK: 90", "Legend: Yes"],  //col 4
                     ["Name: Blaziken", "Type: Fire", "HP: 80", "DEF: 70", "ATK: 120", "Legend: No"]];  //col 5
-for(var i = 0; i < pokemonStats.length; i++){
-    for(var j = 0; j <pokemonStats.length; i++){
-        console.log(pokemonStats[i][j]);
+for(var i = 1; i < pokemonStats.length + 1; i++){
+    for(var j = 0; j <pokemonStats.length; j++){
+        console.log("#" + i + pokemonStats[i -1][j]);
     }
 }
 

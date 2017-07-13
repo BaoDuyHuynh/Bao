@@ -18,9 +18,9 @@ function randomizer (input){
  var people = ["p1", "p2", "p3", "p4"]; 
 
  function Winner (input){
+     // doing the random and getting the random number
     var randomNumber = Math.floor(Math.random() * input);
     return randomNumber; 
  }
 
  console.log(people[Winner(people.length)]);
- 

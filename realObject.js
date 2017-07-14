@@ -7,11 +7,12 @@ var Bao = new Person(16, "asian");
 console.log("Bao is " + Bao.age + " and his race is " + Bao.race);
 
 //drink class
-function drink(type, color, sugar){
+function Drink(type, color, sugar){
     this.type = type; 
     this.color = color; 
     this.sugar = sugar;
 }
-var greenTea = new drink("tea", "green", 0);
-var Coke = new drink("soda", "black", 132); 
+var greenTea = new Drink("tea", "green", 0);
+var Coke = new Drink("soda", "black", 132); 
+
 

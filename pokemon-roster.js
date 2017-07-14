@@ -10,3 +10,5 @@ for(var i = 1; i < pokemonStats.length + 1; i++){
     }
 }
 
+var charizard = { "attack" : "Blaze","HP" : 266, "legenary" : false, "types" : ["flying","Fire"]}
+

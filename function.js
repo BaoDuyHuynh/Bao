@@ -3,7 +3,7 @@ function shoutOut(){
     return "Baooo!";
 }
 
-shoutOut();
+shoutOut(); // to call a function
 
 
 //having an input 

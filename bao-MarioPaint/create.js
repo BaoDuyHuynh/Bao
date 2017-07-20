@@ -7,7 +7,7 @@ function mouseDragged() {
 
 var r, g, b;
   r = random(255);
-  g = random(255);
+  g = random(255);ds
   b = random(255);
 
 var a,c;

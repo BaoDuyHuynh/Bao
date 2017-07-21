@@ -10,10 +10,12 @@ var Bulbasaur;
 function setup() {
 //Image 
 //     image(Pikachu, 10, 15);
+
 //Canvas
     var w = color(255,255,255) //white
     createCanvas(650, 650);
     background ('hsba(160, 100%, 50%, 0.5)');
+
 //pokemon logo box
 fill(w) // white box
 rect( 0, 0, 54, 48); 
@@ -111,7 +113,7 @@ text("HP:", 55, 325);
             fill(0);
             text(YourHP, 87, 327);
     //Opponent's Pokemon
-    ellipse(80, 385, 50, 50);
+    ellipse(80, 355, 50, 50);
 }
 
 function attackBG(){ 

@@ -5,16 +5,19 @@ body{
     color: grey;
 }
 
-h1{ 
-    color: white;
+#title{ 
+    font-family: Georgia; 
+    color: black;
 }
 
 p{ 
-    font-size: 18px;
+    font-size: 25px;
+    background-color: aquamarine;
+    color:black;
 }
 
 html{ 
-    background-color: blueviolet;
+    background-color:white;
 }
 
 img{ 
@@ -25,4 +28,8 @@ img{
 iframe{ 
     display: block;
     margin: auto; 
+}
+
+.other{ 
+    text-align: left;
 }

@@ -1,0 +1,28 @@
+body{ 
+    text-align: center;
+    margin: 20px;
+    font-family: Arial;
+    color: grey;
+}
+
+h1{ 
+    color: white;
+}
+
+p{ 
+    font-size: 18px;
+}
+
+html{ 
+    background-color: blueviolet;
+}
+
+img{ 
+    display: block;
+    margin: auto; 
+}
+
+iframe{ 
+    display: block;
+    margin: auto; 
+}

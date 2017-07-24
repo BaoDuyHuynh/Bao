@@ -2,6 +2,8 @@ var xIncrement = 3;
 var yIncrement = 3; 
 var xPlace = 650/2; //positon of ship on X axis
 var yPlace = 650 - 100; //position of ship on Y axis
+var xBullet = xPlace;
+var yBullet = yPlace;
 var row = 2;// two rows of enemies enemy
 var col = 20; // 20 enemies for a row
 var x = 0; //position for enemy (X-axis)
@@ -52,23 +54,28 @@ if (xPlace > 630) {
 
 }
 }
+function shooting(){
+      //shooting
+  if (keyCode === UP_ARROW) {
+    background ('black');
+    fill('red');
+    rect(xBullet + 6, yBullet -= yIncrement*3, 5, 10); // bullet
+    fill(255, 204, 0);
+    rect(xPlace, 550, 20, 50);
+    enemies(); 
+    if (yBullet < 0){ 
+    yBullet= 550; 
+    rect(xPlace, 550, 20, 50);
+}
+    xBullet = xPlace;
+  }
+}
 
 function draw() {
 enemies();
 rect(xPlace, 550, 20, 50);
+shooting();
 movingBox();
-//shooting
-  if (keyCode === UP_ARROW) {
-    background ('black');
-    fill('red');
-    rect(xPlace + 6, yPlace -= yIncrement*3, 5, 10);
-    fill(255, 204, 0);
-    rect(xPlace, 550, 20, 50);
-    enemies(); 
-    if (yPlace < 0){ 
-    yPlace = 550; 
-    rect(xPlace, 550, 20, 50);
-    }
-  }
+shooting();
   return false; // prevent default
 }

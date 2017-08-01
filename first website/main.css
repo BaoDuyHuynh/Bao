@@ -1,0 +1,21 @@
+body{ 
+    background: url("https://image.freepik.com/free-vector/blurred-background-with-light-colors_1034-245.jpg");
+    background-size: cover;
+    background-position: center;
+}
+header{ 
+    text-align: left;
+    display: inline;
+}
+#intro{ 
+        text-align: center;
+}
+img{ 
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+}
+p{ 
+    font-size: 35px;
+    color: RGB(28, 40, 51)
+}

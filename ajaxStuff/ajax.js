@@ -7,6 +7,7 @@ var appID = "129933f6"
 var userInput = prompt("Please enter food")
 var McDolandsFood = "https://api.nutritionix.com/v1_1/search/"+ userInput + "?results=0:5&fields=item_name,nf_calories&appId=" + appID+ "&appKey=" + appKey
 
+console.log(McDolandsFood);
 $.ajax({ 
     url: McDolandsFood,
 }).done(function(data){

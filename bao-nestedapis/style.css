@@ -1,0 +1,9 @@
+body{ 
+    text-align: center;
+    background: linear-gradient(lightgray, lightcoral, lightblue); 
+}
+img {
+    width: 450;
+    height: 400;
+}
+

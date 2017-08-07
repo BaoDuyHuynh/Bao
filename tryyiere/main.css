@@ -1,0 +1,11 @@
+.nav {
+    margin:250 auto; /* this will center  it */
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+li{ 
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
